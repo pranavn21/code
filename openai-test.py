@@ -5,7 +5,7 @@ client = OpenAI()
 
 quesBank = [] 
 
-# Index 0: Self-Consistency question, 1-3: SAC3, 4: System content parameter for GPT
+# Index for one list element: 0: Self-Consistency question, 1-3: SAC3, 4: System content parameter for GPT
 quesBank.insert(-1, ["Was there ever a US Senator that represented the state of Texas and whose alma mater was Rutgers New Brunswick?",
                  "Has there ever been a US Senator who represented Texas whose alma mater was Rutgers New Brunswick?",
                  "Who is or was a US Senator for Texas who went to Rutgers New Brunswick making it their alma mater?",
